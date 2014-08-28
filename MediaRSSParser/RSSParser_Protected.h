@@ -56,7 +56,7 @@
 /**
  *  This is a copy of the `successBlock` passed to the parser, called only on successful parse completion.
  */
-@property (nonatomic, copy) void (^successBlock)(RSSChannel *channel);
+@property (nonatomic, copy) void (^successBlock)(RSSChannel *channel, NSArray *items);
 
 /**
  *  This is a copy of the `failBlock` passed on to the parser, called if either a network or parse error occurs.
