@@ -44,6 +44,7 @@
  *
  *  Neither the `success` or `failure` block will be called if `cancel` is called (unless, of course, either is called prior to `cancel`).
  */
+
 - (void)cancel;
 
 /**
